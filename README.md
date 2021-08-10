@@ -25,6 +25,26 @@ Getting started guide should only have the necessary details for developing and 
 ## Application Development and Cloud Deployment
 Here are some ideas for high-level instructions on learning web application development and deploying to the cloud in practice. Modeled after [jaantollander/GenieWebApp.jl](https://github.com/jaantollander/GenieWebApp.jl) and its [documentation](https://jaantollander.github.io/GenieWebApp.jl/dev/).
 
+---
+
+**Requirements**: Basic understanding of the following software.
+
+- Linux operating system
+- Command-line interface (CLI), Bash, shell scripting
+- Git version control system
+- Programming language with a web framework
+
+---
+
+**Principles**: Tutorial should progress from simple and manual to complex and automated.
+
+- Start with a local environment, progress to a cloud environment.
+- Start with a virtual machine, progress to a container platform.
+- Start with manual deployment, progress to automated deployment.
+- Start with an on-disk database, progress to a client-server database.
+
+---
+
 **Application Development**: The best way for getting started is to create a web application from scratch using a framework (e.g., Django, Rails, Angular, Lavarel). It is essential to start from scratch to learn how web applications operate. We can use the application to explore fundamental web technologies like HTTP and REST APIs and how applications interact with users and databases. Also, understanding how to use APIs programmatically is important.
 
 ---
@@ -37,5 +57,6 @@ Here are some ideas for high-level instructions on learning web application deve
 
 **Rahti Deployment**: We need to create a (Docker) container to deploy an application to a container platform. Test the container by running it locally. Then, tag and push the container to the Rahti image registry. Finally, deploy the application from the container image. Set up routes and persistent storage.
 
-- We should better explain how to set up OpenShift permissions inside a container. These are major obstacles to deployment.
+- We should better explain how to set up OpenShift permissions inside a container. Permissions can be challenging to configure properly. For example, the container may work fine locally but not on OpenShift.
 - Is there a better way to test if the container works on OpenShift than having to deploy it?
+- Change to OKD4 will significantly improve the web user interface.
