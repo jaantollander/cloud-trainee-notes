@@ -1,34 +1,30 @@
-# Notes on Application Development and Cloud Deployment
+# Cloud Trainee Notes
 Ideas for how to improve CSC Docs ([Source](https://github.com/CSCfi/csc-user-guide)), especially the cloud documentation.
 
-## TLDR
-- Documentation has great informational content.
-- However, we can improve the documentation by structuring it such that it is easier for beginners to read and get started.
-- Improve home page, remove unnecessary content, add overview and instructions.
-- Instruct users how to read the documentation.
-- Content order, separate beginner and advanced concepts.
-- Treat documentation as an essential product, if users have difficulties of getting started they won't.
-- GitHub actions instead of Travis?
+## Overview
+Documentation has great informational content. However, we can improve the documentation by structuring it such that it is easier for beginners to read and get started. We should treat documentation as an essential product, if users have difficulties of getting started they probably won't.
 
 
 ## Home Page
-**Home page** should instruct users on how to approach reading the documentation. We should avoid unnecessary, advanced or too specific content there.
+**Home page** should instruct users on how to read the documentation. We should avoid unnecessary, advanced or too specific content there.
 
 - What users can expect to find under each section?
 - What is relevant information for getting started?
-- research.csc.fi/computing
+- Remove unnecessary content: *Quick Links*, *What's New*
+- Improve overview and add instructions.
+- Borrow elements from `research.csc.fi/computing`?
 
 
 ## Structure
 We should **structure** the documentation such that it is easy for beginners to get started. Beginners don't know what is relevant information for getting started. Hence, we should avoid burdening them with details that are not required for getting started.
 
-We should **order** the documentation such that the relevant information for getting started is before the advanced information. For example: Beginners don't need to concern themselves with virtual machine flavor or billing units. Instead, they need the information to setup a basic virtual machine with the right security groups (e.g. SSH, HTTP).
+We should **order** the documentation content such that the relevant information for getting started is before the advanced information. For example: Beginners don't need to concern themselves with virtual machine flavor or billing units. Instead, they need the information to setup a basic virtual machine with the right security groups (e.g. SSH, HTTP).
 
 Getting started guide should only have the necessary details for developing and deploying a simple working application to the cloud. The working application should not be too trivial like a static web page, but include static and dynamic components.
 
 
-## Cloud
-Here are some ideas for high-level instructions on how to learn web application development and deploying to cloud in practice.
+## Application Development and Cloud Deployment
+Here are some ideas for high-level instructions on how to learn web application development and deploying to cloud in practice. Modeled after [jaantollander/GenieWebApp.jl](https://github.com/jaantollander/GenieWebApp.jl) and its [documentation](https://jaantollander.github.io/GenieWebApp.jl/dev/).
 
 **Application Development**: Best way for getting started is to create a web application from scratch using a framework (e.g. Django, Rails, Angular, Lavarel). It is essential to start from scratch to learn how web application operate. We can use the application to explore fundamental web technologies like HTTP, and REST APIs, and how applications interact with users and databases. Also, understanding how to use APIs programatically is important.
 
