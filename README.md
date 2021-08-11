@@ -2,7 +2,9 @@
 Ideas for improving CSC Docs ([Source](https://github.com/CSCfi/csc-user-guide)), especially the cloud documentation.
 
 ## Overview
-Documentation has excellent informational content. However, we can improve the documentation by structuring it such that it is easier for beginners to read and get started. We should treat documentation as an essential product. If users have difficulties getting started, they probably won't.
+Currently, the documentation has excellent informational content for users who already understand the basics of cloud computing. However, we can improve the documentation by structuring it such that it is easier for beginners to understand and get started with cloud computing. Also, we should add guidance to the home for users about how to read the documentation.
+
+We should treat documentation as essential as other products and services. If users have difficulties getting started, they probably won't. Also, great documentation decreases the burden for customer service.
 
 
 ## Home Page
