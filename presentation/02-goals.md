@@ -1,0 +1,22 @@
+# Goals
+Test CSC's cloud services from the customer standpoint.
+
+- Test virtual machines on Pouta using OpenStack.
+
+- Test OpenShift container platform on Rahti.
+
+Only use publicly available resources. 
+
+- Primarily docs.csc.fi.
+
+Find ways to improve the documentation, especially for beginners.
+
+- Is the documentation structure friendly for beginners?
+
+- Are relevant concepts well explained?
+
+- Is some important information missing or over looked?
+
+I had only small amount of prior experience in cloud computing before the summer 2021.
+
+This allowed me to look at the cloud documentation from a beginner's perspective.
