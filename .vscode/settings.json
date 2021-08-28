@@ -1,6 +1,7 @@
 {
     "slides.vscodeSettings": {
-        "workbench.colorTheme": "Default Light+",
+        // "workbench.colorTheme": "Default Light+",
+        "workbench.colorTheme": "Dark++ Regular",
         "editor.lineNumbers": "off",
         "editor.fontFamily": "Fira Code",
         // "editor.fontFamily": "JuliaMono",
@@ -9,5 +10,5 @@
         "gitlens.currentLine.enabled": false,
     },
     "slides.folder": "presentation",
-    "slides.previewMarkdownFiles": true,
+    "slides.previewMarkdownFiles": false,
 }
