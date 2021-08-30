@@ -17,7 +17,7 @@ We should treat documentation as essential as other products and services. If us
 
 
 ## Structure
-We should **structure** the documentation such that it is easy for beginners to get started. Beginners don't know what relevant information for getting started is. Hence, we should avoid burdening them with details that are not required for getting started.
+We should **structure** the documentation such that it is easy for beginners to get started. Beginners don't know what relevant information for getting started is. Hence, we should avoid burdening them with details that are not required for getting started. Getting started section should be clearly separated from the advanced concepts.
 
 We should **order** the documentation content such that the relevant information for getting started is before the advanced information. For example, beginners don't need to concern themselves with virtual machine flavor or billing units. Instead, they need the information to set up a basic virtual machine with the right security groups (e.g., SSH, HTTP) for deploying an application.
 
@@ -25,7 +25,7 @@ Getting started guide should only have the necessary details for developing and 
 
 
 ## Application Development and Cloud Deployment
-Here are some ideas for high-level instructions on learning web application development and deploying to the cloud in practice. Modeled after [jaantollander/GenieWebApp.jl](https://github.com/jaantollander/GenieWebApp.jl) and its [documentation](https://jaantollander.github.io/GenieWebApp.jl/dev/).
+Here are some ideas for high-level instructions on learning web application development and deploying to the cloud in practice. Modeled after [csc-training/GenieWebApp.jl](https://github.com/csc-training/GenieWebApp.jl) and its [documentation](https://csc-training.github.io/GenieWebApp.jl/dev/).
 
 ---
 
@@ -53,7 +53,8 @@ Here are some ideas for high-level instructions on learning web application deve
 
 **Pouta Deployment**: We can manually set up a virtual machine (Ubuntu is easiest) on Pouta using the OpenStack web interface and deploy the application using the command-line interface. Set up a virtual machine with security groups and persistent storage. Then, connect to the virtual machine using SSH, set up the application, mount persistent storage, set up a reverse proxy (e.g., Nginx), and TLS encryption for HTTPS with let's encrypt.
 
-- We should better explain security groups.
+- We should better explain security groups. How to configure security groups properly? What `default` security group does?
+- Explain [CIDR Subnet Masks](https://docs.netgate.com/pfsense/en/latest/network/cidr.html).
 
 ---
 
