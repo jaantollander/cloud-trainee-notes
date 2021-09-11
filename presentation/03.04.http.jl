@@ -17,14 +17,14 @@ HTTP.request("POST", "$(base)/api/items",
 
 
 # Retrieve specific item
-HTTP.request("GET", "$(base)/api/items/1")
+HTTP.request("GET", "$(base)/api/items/2")
 
 
 # Update specific item
 payload = JSON3.write(Dict(:a=>"Hello World Again", :b=>2))
-HTTP.request("PUT", "$(base)/api/items/1",
+HTTP.request("PUT", "$(base)/api/items/2",
     [("Content-Type", "application/json")], payload)
 
 
 # Delete specific item
-HTTP.request("DELETE", "$(base)/api/items/1")
+HTTP.request("DELETE", "$(base)/api/items/2")

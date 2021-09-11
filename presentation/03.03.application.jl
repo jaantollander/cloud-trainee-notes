@@ -1,4 +1,6 @@
-cd("../GenieWebApp.jl")
+pwd()
+
+# cd("../GenieWebApp.jl")
 
 
 # Install dependencies for the web application
